@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Junipeer::base" title="Junipeer" module="Junipeer_Base" sortOrder="10" dependsOnModule="Junipeer_Base" resource="Junipeer_Base::base"/>
+        <add id="Junipeer::base_about" title="About" module="Junipeer_Base" sortOrder="1000" parent="Junipeer::base" action="adminhtml/system_config/edit/section/junipeerbase" resource="Junipeer_Base::about" />
+    </menu>
+</config>
